@@ -16,7 +16,7 @@
 
         android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
-        android:text="Check Amount:"
+        android:text="@string/check_amount"
         app:layout_constraintBottom_toBottomOf="@+id/checkAmountValue"
         app:layout_constraintRight_toLeftOf="@+id/checkAmountValue"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,13 +25,14 @@
 
     <EditText
         android:id="@+id/checkAmountValue"
-        android:layout_width="207dp"
-        android:layout_height="22dp"
+        android:layout_width="213dp"
+        android:layout_height="40dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="16dp"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="number"
+        android:text="@string/enter_total"
         app:layout_constraintBottom_toTopOf="@+id/partySizeValue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -44,26 +45,27 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="8dp"
-        android:text="Party Size:"
+        android:text="@string/party_size"
         app:layout_constraintBottom_toBottomOf="@+id/partySizeValue"
         app:layout_constraintEnd_toStartOf="@+id/checkAmountValue"
-        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintHorizontal_bias="0.242"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkAmountValue"
-        app:layout_constraintVertical_bias="0.882" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/partySizeValue"
         android:layout_width="213dp"
-        android:layout_height="24dp"
-        android:layout_marginBottom="108dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="88dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="number"
+        android:text="@string/enter_party_size"
         app:layout_constraintBottom_toTopOf="@+id/buttonCompute"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.703"
         app:layout_constraintStart_toEndOf="@+id/partySize" />
 
     <Button
@@ -73,7 +75,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="180dp"
-        android:text="Compute Tip"
+        android:text="@string/compute_tip"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -85,7 +87,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="264dp"
-        android:text="Tip:"
+        android:text="@string/tip"
         app:layout_constraintEnd_toStartOf="@+id/fifteenPercentTip"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -97,7 +99,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginTop="264dp"
-        android:text="15%"
+        android:text="@string/percent_15"
         app:layout_constraintEnd_toStartOf="@+id/fifteenPercentTipValue"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -118,7 +120,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="12dp"
         android:layout_marginTop="264dp"
-        android:text="20%"
+        android:text="@string/percent_20"
         app:layout_constraintEnd_toStartOf="@+id/twentyPercentTipValue"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -139,7 +141,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="12dp"
         android:layout_marginTop="264dp"
-        android:text="25%"
+        android:text="@string/percent_25"
         app:layout_constraintEnd_toStartOf="@+id/twentyFivePercentTipValue"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -161,7 +163,7 @@
         android:layout_marginEnd="20dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="36dp"
-        android:text="Total:"
+        android:text="@string/total"
         app:layout_constraintEnd_toStartOf="@+id/fifteenPercentTotal"
         app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
@@ -173,7 +175,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginTop="40dp"
-        android:text="15%"
+        android:text="@string/percent_15"
         app:layout_constraintEnd_toStartOf="@+id/fifteenPercentTotalValue"
         app:layout_constraintTop_toBottomOf="@+id/fifteenPercentTip" />
 
@@ -194,7 +196,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="40dp"
-        android:text="20%"
+        android:text="@string/percent_20"
         app:layout_constraintEnd_toStartOf="@+id/twentyPercentTotalValue"
         app:layout_constraintTop_toBottomOf="@+id/twentyPercentTip" />
 
@@ -215,7 +217,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="4dp"
         android:layout_marginTop="36dp"
-        android:text="25%"
+        android:text="@string/percent_25"
         app:layout_constraintEnd_toStartOf="@+id/twentyFivePercenTotalValue"
         app:layout_constraintTop_toBottomOf="@+id/twentyFivePercentTip" />
 
