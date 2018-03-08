@@ -146,7 +146,7 @@
     <EditText
         android:id="@+id/twentyFivePercentTipValue"
         android:layout_width="51dp"
-        android:layout_height="wrap_content"
+        android:layout_height="49dp"
         android:layout_marginEnd="8dp"
         android:layout_marginTop="244dp"
         android:ems="10"
@@ -171,6 +171,7 @@
         android:id="@+id/fifteenPercentTotal"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
         android:layout_marginTop="40dp"
         android:text="15%"
         app:layout_constraintEnd_toStartOf="@+id/fifteenPercentTotalValue"
@@ -179,9 +180,9 @@
     <EditText
         android:id="@+id/fifteenPercentTotalValue"
         android:layout_width="38dp"
-        android:layout_height="34dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="32dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toStartOf="@+id/twentypercentotal"
@@ -221,7 +222,7 @@
     <EditText
         android:id="@+id/twentyFivePercenTotalValue"
         android:layout_width="49dp"
-        android:layout_height="wrap_content"
+        android:layout_height="39dp"
         android:layout_marginEnd="8dp"
         android:layout_marginTop="16dp"
         android:ems="10"
