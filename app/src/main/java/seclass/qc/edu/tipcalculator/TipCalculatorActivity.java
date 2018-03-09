@@ -30,6 +30,7 @@ public class TipCalculatorActivity extends AppCompatActivity {
         //total values
         fifteenPercentTotalTipValue = findViewById(R.id.fifteenPercentTotalValue);
         twentyPercentTotalTipValue = findViewById(R.id.twentyPercentTotalValue);
+        twentyFivePercentTipTotalValue = findViewById(R.id.twentyFivePercenTotalValue);
 
         buttonCompute.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,11 +38,19 @@ public class TipCalculatorActivity extends AppCompatActivity {
                 String amount = checkAmountValue.getText().toString();
                 String party = partySizeValue.getText().toString();
 
-                
+                //display toast
+                if(amount.length() == 0 || party.length() == 0)
+                    displayToast();
+
+
             }
         });
 
 
+
+    }
+
+    public void displayToast(){
 
     }
 }
