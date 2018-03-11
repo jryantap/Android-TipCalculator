@@ -106,11 +106,12 @@
     <EditText
         android:id="@+id/fifteenPercentTipValue"
         android:layout_width="40dp"
-        android:layout_height="27dp"
+        android:layout_height="43dp"
         android:layout_marginEnd="28dp"
-        android:layout_marginTop="264dp"
+        android:layout_marginTop="248dp"
         android:ems="10"
         android:inputType="number"
+        android:textSize="14sp"
         app:layout_constraintEnd_toStartOf="@+id/twentyPercentTip"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -118,7 +119,6 @@
         android:id="@+id/twentyPercentTip"
         android:layout_width="30dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="12dp"
         android:layout_marginTop="264dp"
         android:text="@string/percent_20"
         app:layout_constraintEnd_toStartOf="@+id/twentyPercentTipValue"
@@ -127,11 +127,12 @@
     <EditText
         android:id="@+id/twentyPercentTipValue"
         android:layout_width="38dp"
-        android:layout_height="28dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginTop="264dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="240dp"
         android:ems="10"
         android:inputType="number"
+        android:textSize="14sp"
         app:layout_constraintEnd_toStartOf="@+id/twentyFivePercentTip"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -149,10 +150,11 @@
         android:id="@+id/twentyFivePercentTipValue"
         android:layout_width="51dp"
         android:layout_height="49dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginTop="244dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="236dp"
         android:ems="10"
         android:inputType="number"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -182,9 +184,9 @@
     <EditText
         android:id="@+id/fifteenPercentTotalValue"
         android:layout_width="38dp"
-        android:layout_height="24dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginTop="32dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toStartOf="@+id/twentypercentotal"
@@ -203,17 +205,18 @@
     <EditText
         android:id="@+id/twentyPercentTotalValue"
         android:layout_width="37dp"
-        android:layout_height="27dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginTop="28dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="number"
+        android:textSize="14sp"
         app:layout_constraintEnd_toStartOf="@+id/twentyFivePercentTotal"
         app:layout_constraintTop_toBottomOf="@+id/twentyPercentTipValue" />
 
     <TextView
         android:id="@+id/twentyFivePercentTotal"
-        android:layout_width="42dp"
+        android:layout_width="30dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="4dp"
         android:layout_marginTop="36dp"
@@ -229,6 +232,7 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="number"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/twentyFivePercentTipValue" />
 </android.support.constraint.ConstraintLayout>
